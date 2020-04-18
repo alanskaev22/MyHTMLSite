@@ -1,20 +1,45 @@
 p, td, label {
-    color:#442727;
-    font-family: arial,helvetica;
+    color: #442727;
+    font-family: arial, helvetica;
 }
+body{
+background-color: #eae7d9;
+
+}
+
 h1 {
     color: #442727;
 }
+
 a {
-    color:#937d14;
+    color: #937d14;
 }
-img {
-    border-radius: 50%;
+a:hover{
+    color: #442727;
 }
-hr{
+
+hr {
     border-style: none;
     border-top-style: dotted;
     border-color: #d2c6b2;
     border-width: 5px;
     width: 50px;
 }
+
+.circular{
+    border-radius: 50%;
+    width: 200px;
+    height: 210px;
+}
+.zoom {
+    transition: all .2s ease;
+    overflow: hidden;
+    filter: brightness(50%);
+}
+.zoom:hover{
+    transform: scale(1.05);
+    margin: 0 auto;
+    filter: brightness(100%);
+}
+
+
