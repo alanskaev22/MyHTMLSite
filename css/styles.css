@@ -1,0 +1,20 @@
+p, td, label {
+    color:#442727;
+    font-family: arial,helvetica;
+}
+h1 {
+    color: #442727;
+}
+a {
+    color:#937d14;
+}
+img {
+    border-radius: 50%;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #d2c6b2;
+    border-width: 5px;
+    width: 50px;
+}
